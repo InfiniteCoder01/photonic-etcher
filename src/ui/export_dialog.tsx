@@ -112,7 +112,7 @@ const printerModels: { [key: string]: PrinterModel } = {
     },
     'AnyCubic Photon Mono X2 (.pmx2)': {
         "fileVersion": [1, 4],
-        "xyRes": 0.050,
+        "xyRes": 0.048,
         "resolution": [4096, 2560],
         "previewResolution": [224, 168],
         "rotate180": false,
