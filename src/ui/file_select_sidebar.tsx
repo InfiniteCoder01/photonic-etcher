@@ -55,7 +55,7 @@ function FileSelectSideBar(props: {
 
     return <div className={"col-4 dark-bg p-3 h-100"}>
         <input type='file' id='files' ref={inputFile} className={"hidden"}
-            multiple={true} accept={".g*,.zip,.txt,.xln,.drl"}
+            multiple={true} accept={".g*,.zip,.txt,.xln,.drl,.svg"}
             onInput={() => {
                 if (inputFile.current?.files != null && inputFile.current.files.length > 0) {
                     setRootFileName("")
