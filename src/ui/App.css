@@ -165,6 +165,11 @@ html, body, .pagefill {
   background: #33373f;
 }
 
+.modal-fit-content {
+  max-width: unset !important;
+  width: fit-content !important;
+}
+
 /*.layer-card-hover {*/
 /*  color: #fff !important;*/
 /*  background-color: #5c636a;*/

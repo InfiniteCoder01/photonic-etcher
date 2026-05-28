@@ -217,7 +217,7 @@ function ExportDialog(props: {
             setPreviewLoading(false);
             setOutputPath("");
         }}
-        size={"lg"}>
+        dialogClassName={"modal-fit-content"}>
         <Modal.Header closeButton>
             <Modal.Title>Export Layers</Modal.Title>
         </Modal.Header>
@@ -272,7 +272,7 @@ function ExportDialog(props: {
                                                                     </Button>
                                                                 </div>
                                                                 <div className={"grey card-body"}>
-                                                                    <img src={photonFile.layerPNGURL} className={"w-100"} />
+                                                                    <img src={photonFile.layerPNGURL} className={"w-100"} alt={"layer"} />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -295,7 +295,7 @@ function ExportDialog(props: {
                                         <td>Type</td>
                                         <td>Side</td>
                                         {/*<td>File Name</td>*/}
-                                        <td style={{ width: "170px" }}>Exposure Time</td>
+                                        <td style={{ width: "180px" }}>Exposure Time</td>
                                     </tr>
                                 </thead>
                                 <tbody>
